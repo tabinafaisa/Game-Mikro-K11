@@ -1,0 +1,8547 @@
+{
+ "firstLayout": "Menu",
+ "initialGDVersion": "5.6.285",
+ "gdVersion": {
+  "build": 285,
+  "major": 5,
+  "minor": 6,
+  "revision": 0
+ },
+ "properties": {
+  "adMobAppId": "",
+  "adaptGameResolutionAtRuntime": true,
+  "antialiasingMode": "MSAA",
+  "antialisingEnabledOnMobile": false,
+  "folderProject": false,
+  "orientation": "landscape",
+  "packageName": "com.teamintro.pixelteamquest",
+  "projectUuid": "4ecc8d13-89f1-4a3c-9004-6576e4a61031",
+  "scaleMode": "nearest",
+  "pixelsRounding": true,
+  "sizeOnStartupMode": "adaptWidth",
+  "templateSlug": "",
+  "author": "",
+  "name": "Pixel Team Quest",
+  "description": "Micro game team intro",
+  "useDeprecatedZeroAsDefaultZOrder": false,
+  "version": "1.0.0",
+  "windowWidth": 960,
+  "windowHeight": 540,
+  "latestCompilationDirectory": "",
+  "maxFPS": 60,
+  "minFPS": 20,
+  "verticalSync": true,
+  "platformSpecificAssets": {},
+  "loadingScreen": {
+   "backgroundColor": 0,
+   "backgroundFadeInDuration": 0.2,
+   "backgroundImageResourceName": "",
+   "gdevelopLogoStyle": "light",
+   "logoAndProgressFadeInDuration": 0.2,
+   "logoAndProgressLogoFadeInDelay": 0.2,
+   "minDuration": 1.5,
+   "progressBarColor": 16777215,
+   "progressBarHeight": 20,
+   "progressBarMaxWidth": 200,
+   "progressBarMinWidth": 40,
+   "progressBarWidthPercent": 30,
+   "showGDevelopSplash": true,
+   "showProgressBar": true
+  },
+  "watermark": {
+   "placement": "bottom-left",
+   "showWatermark": true
+  },
+  "authorIds": [],
+  "authorUsernames": [],
+  "playableDevices": [],
+  "categories": [],
+  "platforms": [
+   {
+    "name": "GDevelop JS platform"
+   }
+  ],
+  "useExternalSourceFiles": false,
+  "currentPlatform": "GDevelop JS platform",
+  "extensionProperties": []
+ },
+ "resources": {
+  "resources": [
+   {
+    "alwaysLoaded": false,
+    "file": "assets/dewo_Idle_0.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "dewo_Idle_0.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/dewo_Jump_0.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "dewo_Jump_0.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/dewo_Jump_1.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "dewo_Jump_1.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/dewo_Walk_0.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "dewo_Walk_0.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/dewo_Walk_1.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "dewo_Walk_1.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/dewo_Walk_2.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "dewo_Walk_2.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/dewo_Walk_3.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "dewo_Walk_3.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/dewo_Walk_4.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "dewo_Walk_4.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/dewo_Walk_5.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "dewo_Walk_5.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/dewo_Walk_6.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "dewo_Walk_6.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/dewo_Walk_7.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "dewo_Walk_7.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/door.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "door.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/foto1.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "foto1.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/foto2.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "foto2.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/foto3.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "foto3.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/item_q.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "item_q.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/kartu_bg.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "kartu_bg.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Idle_0.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Idle_0.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Idle_1.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Idle_1.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Idle_2.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Idle_2.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Idle_3.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Idle_3.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Idle_4.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Idle_4.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Idle_5.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Idle_5.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Idle_6.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Idle_6.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Idle_7.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Idle_7.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Jump_0.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Jump_0.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Jump_1.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Jump_1.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Jump_2.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Jump_2.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Jump_3.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Jump_3.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Jump_4.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Jump_4.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Walk_0.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Walk_0.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Walk_1.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Walk_1.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Walk_2.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Walk_2.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Walk_3.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Walk_3.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Walk_4.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Walk_4.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Walk_5.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Walk_5.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Walk_6.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Walk_6.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/ria_Walk_7.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "ria_Walk_7.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/tabina_Idle_0.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "tabina_Idle_0.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/tabina_Jump_0.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "tabina_Jump_0.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/tabina_Jump_1.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "tabina_Jump_1.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/tabina_Jump_2.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "tabina_Jump_2.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/tabina_Jump_3.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "tabina_Jump_3.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/tabina_Walk_0.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "tabina_Walk_0.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/tabina_Walk_1.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "tabina_Walk_1.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/tabina_Walk_2.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "tabina_Walk_2.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/tabina_Walk_3.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "tabina_Walk_3.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/tabina_Walk_4.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "tabina_Walk_4.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/tabina_Walk_5.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "tabina_Walk_5.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/tabina_Walk_6.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "tabina_Walk_6.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/tabina_Walk_7.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "tabina_Walk_7.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/tile_ground.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "tile_ground.png",
+    "smoothed": false,
+    "userAdded": true
+   },
+   {
+    "alwaysLoaded": false,
+    "file": "assets/tile_platform.png",
+    "kind": "image",
+    "metadata": "",
+    "name": "tile_platform.png",
+    "smoothed": false,
+    "userAdded": true
+   }
+  ]
+ },
+ "objects": [
+  {
+   "adaptCollisionMaskAutomatically": true,
+   "assetStoreId": "",
+   "name": "KartuBg",
+   "type": "Sprite",
+   "updateIfNotVisible": false,
+   "variables": [],
+   "effects": [],
+   "behaviors": [],
+   "animations": [
+    {
+     "name": "Default",
+     "useMultipleDirections": false,
+     "directions": [
+      {
+       "looping": true,
+       "timeBetweenFrames": 0.1,
+       "sprites": [
+        {
+         "hasCustomCollisionMask": false,
+         "image": "kartu_bg.png",
+         "points": [],
+         "originPoint": {
+          "name": "origine",
+          "x": 0,
+          "y": 0
+         },
+         "centerPoint": {
+          "automatic": true,
+          "name": "centre",
+          "x": 0,
+          "y": 0
+         },
+         "customCollisionMask": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "adaptCollisionMaskAutomatically": true,
+   "assetStoreId": "",
+   "name": "Foto1",
+   "type": "Sprite",
+   "updateIfNotVisible": false,
+   "variables": [],
+   "effects": [],
+   "behaviors": [],
+   "animations": [
+    {
+     "name": "Default",
+     "useMultipleDirections": false,
+     "directions": [
+      {
+       "looping": true,
+       "timeBetweenFrames": 0.1,
+       "sprites": [
+        {
+         "hasCustomCollisionMask": false,
+         "image": "foto1.png",
+         "points": [],
+         "originPoint": {
+          "name": "origine",
+          "x": 0,
+          "y": 0
+         },
+         "centerPoint": {
+          "automatic": true,
+          "name": "centre",
+          "x": 0,
+          "y": 0
+         },
+         "customCollisionMask": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "adaptCollisionMaskAutomatically": true,
+   "assetStoreId": "",
+   "name": "Foto2",
+   "type": "Sprite",
+   "updateIfNotVisible": false,
+   "variables": [],
+   "effects": [],
+   "behaviors": [],
+   "animations": [
+    {
+     "name": "Default",
+     "useMultipleDirections": false,
+     "directions": [
+      {
+       "looping": true,
+       "timeBetweenFrames": 0.1,
+       "sprites": [
+        {
+         "hasCustomCollisionMask": false,
+         "image": "foto2.png",
+         "points": [],
+         "originPoint": {
+          "name": "origine",
+          "x": 0,
+          "y": 0
+         },
+         "centerPoint": {
+          "automatic": true,
+          "name": "centre",
+          "x": 0,
+          "y": 0
+         },
+         "customCollisionMask": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "adaptCollisionMaskAutomatically": true,
+   "assetStoreId": "",
+   "name": "Foto3",
+   "type": "Sprite",
+   "updateIfNotVisible": false,
+   "variables": [],
+   "effects": [],
+   "behaviors": [],
+   "animations": [
+    {
+     "name": "Default",
+     "useMultipleDirections": false,
+     "directions": [
+      {
+       "looping": true,
+       "timeBetweenFrames": 0.1,
+       "sprites": [
+        {
+         "hasCustomCollisionMask": false,
+         "image": "foto3.png",
+         "points": [],
+         "originPoint": {
+          "name": "origine",
+          "x": 0,
+          "y": 0
+         },
+         "centerPoint": {
+          "automatic": true,
+          "name": "centre",
+          "x": 0,
+          "y": 0
+         },
+         "customCollisionMask": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "assetStoreId": "",
+   "name": "Nama1",
+   "type": "TextObject::Text",
+   "variables": [],
+   "effects": [],
+   "behaviors": [],
+   "string": "Dewo",
+   "font": "",
+   "characterSize": 26,
+   "color": {
+    "b": 60,
+    "g": 210,
+    "r": 250
+   },
+   "bold": true,
+   "italic": false,
+   "underlined": false,
+   "smoothed": false,
+   "textAlignment": "left",
+   "content": {
+    "bold": true,
+    "isOutlineEnabled": false,
+    "isShadowEnabled": false,
+    "italic": false,
+    "outlineColor": "255;255;255",
+    "outlineThickness": 2,
+    "shadowAngle": 90,
+    "shadowBlurRadius": 2,
+    "shadowColor": "0;0;0",
+    "shadowDistance": 4,
+    "shadowOpacity": 127,
+    "smoothed": false,
+    "underlined": false,
+    "text": "Dewo",
+    "font": "",
+    "textAlignment": "left",
+    "characterSize": 26,
+    "color": "250;210;60",
+    "verticalTextAlignment": "top",
+    "lineHeight": 0
+   }
+  },
+  {
+   "assetStoreId": "",
+   "name": "Nim1",
+   "type": "TextObject::Text",
+   "variables": [],
+   "effects": [],
+   "behaviors": [],
+   "string": "NIM 240533602866",
+   "font": "",
+   "characterSize": 20,
+   "color": {
+    "b": 255,
+    "g": 255,
+    "r": 255
+   },
+   "bold": false,
+   "italic": false,
+   "underlined": false,
+   "smoothed": false,
+   "textAlignment": "left",
+   "content": {
+    "bold": false,
+    "isOutlineEnabled": false,
+    "isShadowEnabled": false,
+    "italic": false,
+    "outlineColor": "255;255;255",
+    "outlineThickness": 2,
+    "shadowAngle": 90,
+    "shadowBlurRadius": 2,
+    "shadowColor": "0;0;0",
+    "shadowDistance": 4,
+    "shadowOpacity": 127,
+    "smoothed": false,
+    "underlined": false,
+    "text": "NIM 240533602866",
+    "font": "",
+    "textAlignment": "left",
+    "characterSize": 20,
+    "color": "255;255;255",
+    "verticalTextAlignment": "top",
+    "lineHeight": 0
+   }
+  },
+  {
+   "assetStoreId": "",
+   "name": "Nama2",
+   "type": "TextObject::Text",
+   "variables": [],
+   "effects": [],
+   "behaviors": [],
+   "string": "Tabina",
+   "font": "",
+   "characterSize": 26,
+   "color": {
+    "b": 60,
+    "g": 210,
+    "r": 250
+   },
+   "bold": true,
+   "italic": false,
+   "underlined": false,
+   "smoothed": false,
+   "textAlignment": "left",
+   "content": {
+    "bold": true,
+    "isOutlineEnabled": false,
+    "isShadowEnabled": false,
+    "italic": false,
+    "outlineColor": "255;255;255",
+    "outlineThickness": 2,
+    "shadowAngle": 90,
+    "shadowBlurRadius": 2,
+    "shadowColor": "0;0;0",
+    "shadowDistance": 4,
+    "shadowOpacity": 127,
+    "smoothed": false,
+    "underlined": false,
+    "text": "Tabina",
+    "font": "",
+    "textAlignment": "left",
+    "characterSize": 26,
+    "color": "250;210;60",
+    "verticalTextAlignment": "top",
+    "lineHeight": 0
+   }
+  },
+  {
+   "assetStoreId": "",
+   "name": "Nim2",
+   "type": "TextObject::Text",
+   "variables": [],
+   "effects": [],
+   "behaviors": [],
+   "string": "NIM 240533606474",
+   "font": "",
+   "characterSize": 20,
+   "color": {
+    "b": 255,
+    "g": 255,
+    "r": 255
+   },
+   "bold": false,
+   "italic": false,
+   "underlined": false,
+   "smoothed": false,
+   "textAlignment": "left",
+   "content": {
+    "bold": false,
+    "isOutlineEnabled": false,
+    "isShadowEnabled": false,
+    "italic": false,
+    "outlineColor": "255;255;255",
+    "outlineThickness": 2,
+    "shadowAngle": 90,
+    "shadowBlurRadius": 2,
+    "shadowColor": "0;0;0",
+    "shadowDistance": 4,
+    "shadowOpacity": 127,
+    "smoothed": false,
+    "underlined": false,
+    "text": "NIM 240533606474",
+    "font": "",
+    "textAlignment": "left",
+    "characterSize": 20,
+    "color": "255;255;255",
+    "verticalTextAlignment": "top",
+    "lineHeight": 0
+   }
+  },
+  {
+   "assetStoreId": "",
+   "name": "Nama3",
+   "type": "TextObject::Text",
+   "variables": [],
+   "effects": [],
+   "behaviors": [],
+   "string": "Ria",
+   "font": "",
+   "characterSize": 26,
+   "color": {
+    "b": 60,
+    "g": 210,
+    "r": 250
+   },
+   "bold": true,
+   "italic": false,
+   "underlined": false,
+   "smoothed": false,
+   "textAlignment": "left",
+   "content": {
+    "bold": true,
+    "isOutlineEnabled": false,
+    "isShadowEnabled": false,
+    "italic": false,
+    "outlineColor": "255;255;255",
+    "outlineThickness": 2,
+    "shadowAngle": 90,
+    "shadowBlurRadius": 2,
+    "shadowColor": "0;0;0",
+    "shadowDistance": 4,
+    "shadowOpacity": 127,
+    "smoothed": false,
+    "underlined": false,
+    "text": "Ria",
+    "font": "",
+    "textAlignment": "left",
+    "characterSize": 26,
+    "color": "250;210;60",
+    "verticalTextAlignment": "top",
+    "lineHeight": 0
+   }
+  },
+  {
+   "assetStoreId": "",
+   "name": "Nim3",
+   "type": "TextObject::Text",
+   "variables": [],
+   "effects": [],
+   "behaviors": [],
+   "string": "NIM 240533604711",
+   "font": "",
+   "characterSize": 20,
+   "color": {
+    "b": 255,
+    "g": 255,
+    "r": 255
+   },
+   "bold": false,
+   "italic": false,
+   "underlined": false,
+   "smoothed": false,
+   "textAlignment": "left",
+   "content": {
+    "bold": false,
+    "isOutlineEnabled": false,
+    "isShadowEnabled": false,
+    "italic": false,
+    "outlineColor": "255;255;255",
+    "outlineThickness": 2,
+    "shadowAngle": 90,
+    "shadowBlurRadius": 2,
+    "shadowColor": "0;0;0",
+    "shadowDistance": 4,
+    "shadowOpacity": 127,
+    "smoothed": false,
+    "underlined": false,
+    "text": "NIM 240533604711",
+    "font": "",
+    "textAlignment": "left",
+    "characterSize": 20,
+    "color": "255;255;255",
+    "verticalTextAlignment": "top",
+    "lineHeight": 0
+   }
+  },
+  {
+   "assetStoreId": "",
+   "name": "Hint",
+   "type": "TextObject::Text",
+   "variables": [],
+   "effects": [],
+   "behaviors": [],
+   "string": "Tekan ENTER untuk lanjut",
+   "font": "",
+   "characterSize": 14,
+   "color": {
+    "b": 220,
+    "g": 180,
+    "r": 170
+   },
+   "bold": false,
+   "italic": false,
+   "underlined": false,
+   "smoothed": false,
+   "textAlignment": "left",
+   "content": {
+    "bold": false,
+    "isOutlineEnabled": false,
+    "isShadowEnabled": false,
+    "italic": false,
+    "outlineColor": "255;255;255",
+    "outlineThickness": 2,
+    "shadowAngle": 90,
+    "shadowBlurRadius": 2,
+    "shadowColor": "0;0;0",
+    "shadowDistance": 4,
+    "shadowOpacity": 127,
+    "smoothed": false,
+    "underlined": false,
+    "text": "Tekan ENTER untuk lanjut",
+    "font": "",
+    "textAlignment": "left",
+    "characterSize": 14,
+    "color": "170;180;220",
+    "verticalTextAlignment": "top",
+    "lineHeight": 0
+   }
+  }
+ ],
+ "objectsFolderStructure": {
+  "folderName": "__ROOT",
+  "children": [
+   {
+    "objectName": "KartuBg"
+   },
+   {
+    "objectName": "Foto1"
+   },
+   {
+    "objectName": "Foto2"
+   },
+   {
+    "objectName": "Foto3"
+   },
+   {
+    "objectName": "Nama1"
+   },
+   {
+    "objectName": "Nim1"
+   },
+   {
+    "objectName": "Nama2"
+   },
+   {
+    "objectName": "Nim2"
+   },
+   {
+    "objectName": "Nama3"
+   },
+   {
+    "objectName": "Nim3"
+   },
+   {
+    "objectName": "Hint"
+   }
+  ]
+ },
+ "objectsGroups": [],
+ "variables": [
+  {
+   "name": "Pilihan",
+   "type": "number",
+   "value": 1
+  }
+ ],
+ "layouts": [
+  {
+   "b": 50,
+   "disableInputWhenNotFocused": true,
+   "mangledName": "Menu",
+   "name": "Menu",
+   "oglFOV": 90,
+   "oglZFar": 500,
+   "oglZNear": 1,
+   "r": 20,
+   "standardSortMethod": true,
+   "renderer3DWorldScale": 100,
+   "stopSoundsOnStartup": true,
+   "title": "",
+   "v": 24,
+   "uiSettings": {
+    "grid": false,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridWidth": 32,
+    "snap": true,
+    "windowMask": false,
+    "zoomFactor": 1
+   },
+   "objectsGroups": [],
+   "variables": [],
+   "instances": [
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Title",
+     "persistentUuid": "e1800016-77c0-4b13-98b9-e6a98cd1bb09",
+     "x": 170,
+     "y": 30,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Sub",
+     "persistentUuid": "a670d18e-62c5-431d-b2a0-f5ac55a732d2",
+     "x": 230,
+     "y": 115,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Key1",
+     "persistentUuid": "ddb56246-91c9-451f-affd-b4393407546b",
+     "x": 182,
+     "y": 165,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": true,
+     "height": 120,
+     "width": 120,
+     "layer": "",
+     "locked": false,
+     "name": "Foto1",
+     "persistentUuid": "e1d4c5bd-85d7-416f-b8af-3c7b45204838",
+     "x": 160,
+     "y": 215,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Nama1",
+     "persistentUuid": "731c078f-bf60-40f0-8117-52e240ce887b",
+     "x": 180,
+     "y": 345,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Key2",
+     "persistentUuid": "9277434f-bd82-4522-89a9-3906f38f7263",
+     "x": 442,
+     "y": 165,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": true,
+     "height": 120,
+     "width": 120,
+     "layer": "",
+     "locked": false,
+     "name": "Foto2",
+     "persistentUuid": "a2a5916c-3527-47d4-980c-6635dcc8332a",
+     "x": 420,
+     "y": 215,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Nama2",
+     "persistentUuid": "7cd569c8-9895-4e92-a598-0aa1b52364b5",
+     "x": 440,
+     "y": 345,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Key3",
+     "persistentUuid": "b8972bb6-b88d-4f63-9ee9-065b18079f50",
+     "x": 702,
+     "y": 165,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": true,
+     "height": 120,
+     "width": 120,
+     "layer": "",
+     "locked": false,
+     "name": "Foto3",
+     "persistentUuid": "890b59e6-bea4-417d-a7b9-d500a8678c77",
+     "x": 680,
+     "y": 215,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Nama3",
+     "persistentUuid": "b3f9f75a-288f-4ebe-ac00-4dc5e6f686b4",
+     "x": 700,
+     "y": 345,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Goal",
+     "persistentUuid": "2c15ad22-1ae8-475f-b057-7b6faff68e14",
+     "x": 200,
+     "y": 450,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    }
+   ],
+   "objects": [
+    {
+     "assetStoreId": "",
+     "name": "Title",
+     "type": "TextObject::Text",
+     "variables": [],
+     "effects": [],
+     "behaviors": [],
+     "string": "PIXEL TEAM QUEST",
+     "font": "",
+     "characterSize": 58,
+     "color": {
+      "b": 60,
+      "g": 210,
+      "r": 250
+     },
+     "bold": true,
+     "italic": false,
+     "underlined": false,
+     "smoothed": false,
+     "textAlignment": "left",
+     "content": {
+      "bold": true,
+      "isOutlineEnabled": false,
+      "isShadowEnabled": false,
+      "italic": false,
+      "outlineColor": "255;255;255",
+      "outlineThickness": 2,
+      "shadowAngle": 90,
+      "shadowBlurRadius": 2,
+      "shadowColor": "0;0;0",
+      "shadowDistance": 4,
+      "shadowOpacity": 127,
+      "smoothed": false,
+      "underlined": false,
+      "text": "PIXEL TEAM QUEST",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 58,
+      "color": "250;210;60",
+      "verticalTextAlignment": "top",
+      "lineHeight": 0
+     }
+    },
+    {
+     "assetStoreId": "",
+     "name": "Sub",
+     "type": "TextObject::Text",
+     "variables": [],
+     "effects": [],
+     "behaviors": [],
+     "string": "Pilih karakter: tekan angka 1, 2, atau 3",
+     "font": "",
+     "characterSize": 26,
+     "color": {
+      "b": 255,
+      "g": 255,
+      "r": 255
+     },
+     "bold": false,
+     "italic": false,
+     "underlined": false,
+     "smoothed": false,
+     "textAlignment": "left",
+     "content": {
+      "bold": false,
+      "isOutlineEnabled": false,
+      "isShadowEnabled": false,
+      "italic": false,
+      "outlineColor": "255;255;255",
+      "outlineThickness": 2,
+      "shadowAngle": 90,
+      "shadowBlurRadius": 2,
+      "shadowColor": "0;0;0",
+      "shadowDistance": 4,
+      "shadowOpacity": 127,
+      "smoothed": false,
+      "underlined": false,
+      "text": "Pilih karakter: tekan angka 1, 2, atau 3",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 26,
+      "color": "255;255;255",
+      "verticalTextAlignment": "top",
+      "lineHeight": 0
+     }
+    },
+    {
+     "assetStoreId": "",
+     "name": "Key1",
+     "type": "TextObject::Text",
+     "variables": [],
+     "effects": [],
+     "behaviors": [],
+     "string": "[ 1 ]",
+     "font": "",
+     "characterSize": 32,
+     "color": {
+      "b": 255,
+      "g": 255,
+      "r": 255
+     },
+     "bold": true,
+     "italic": false,
+     "underlined": false,
+     "smoothed": false,
+     "textAlignment": "left",
+     "content": {
+      "bold": true,
+      "isOutlineEnabled": false,
+      "isShadowEnabled": false,
+      "italic": false,
+      "outlineColor": "255;255;255",
+      "outlineThickness": 2,
+      "shadowAngle": 90,
+      "shadowBlurRadius": 2,
+      "shadowColor": "0;0;0",
+      "shadowDistance": 4,
+      "shadowOpacity": 127,
+      "smoothed": false,
+      "underlined": false,
+      "text": "[ 1 ]",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 32,
+      "color": "255;255;255",
+      "verticalTextAlignment": "top",
+      "lineHeight": 0
+     }
+    },
+    {
+     "assetStoreId": "",
+     "name": "Key2",
+     "type": "TextObject::Text",
+     "variables": [],
+     "effects": [],
+     "behaviors": [],
+     "string": "[ 2 ]",
+     "font": "",
+     "characterSize": 32,
+     "color": {
+      "b": 255,
+      "g": 255,
+      "r": 255
+     },
+     "bold": true,
+     "italic": false,
+     "underlined": false,
+     "smoothed": false,
+     "textAlignment": "left",
+     "content": {
+      "bold": true,
+      "isOutlineEnabled": false,
+      "isShadowEnabled": false,
+      "italic": false,
+      "outlineColor": "255;255;255",
+      "outlineThickness": 2,
+      "shadowAngle": 90,
+      "shadowBlurRadius": 2,
+      "shadowColor": "0;0;0",
+      "shadowDistance": 4,
+      "shadowOpacity": 127,
+      "smoothed": false,
+      "underlined": false,
+      "text": "[ 2 ]",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 32,
+      "color": "255;255;255",
+      "verticalTextAlignment": "top",
+      "lineHeight": 0
+     }
+    },
+    {
+     "assetStoreId": "",
+     "name": "Key3",
+     "type": "TextObject::Text",
+     "variables": [],
+     "effects": [],
+     "behaviors": [],
+     "string": "[ 3 ]",
+     "font": "",
+     "characterSize": 32,
+     "color": {
+      "b": 255,
+      "g": 255,
+      "r": 255
+     },
+     "bold": true,
+     "italic": false,
+     "underlined": false,
+     "smoothed": false,
+     "textAlignment": "left",
+     "content": {
+      "bold": true,
+      "isOutlineEnabled": false,
+      "isShadowEnabled": false,
+      "italic": false,
+      "outlineColor": "255;255;255",
+      "outlineThickness": 2,
+      "shadowAngle": 90,
+      "shadowBlurRadius": 2,
+      "shadowColor": "0;0;0",
+      "shadowDistance": 4,
+      "shadowOpacity": 127,
+      "smoothed": false,
+      "underlined": false,
+      "text": "[ 3 ]",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 32,
+      "color": "255;255;255",
+      "verticalTextAlignment": "top",
+      "lineHeight": 0
+     }
+    },
+    {
+     "assetStoreId": "",
+     "name": "Goal",
+     "type": "TextObject::Text",
+     "variables": [],
+     "effects": [],
+     "behaviors": [],
+     "string": "Kumpulkan 3 foto anggota tim untuk membuka pintu!",
+     "font": "",
+     "characterSize": 20,
+     "color": {
+      "b": 220,
+      "g": 180,
+      "r": 170
+     },
+     "bold": false,
+     "italic": false,
+     "underlined": false,
+     "smoothed": false,
+     "textAlignment": "left",
+     "content": {
+      "bold": false,
+      "isOutlineEnabled": false,
+      "isShadowEnabled": false,
+      "italic": false,
+      "outlineColor": "255;255;255",
+      "outlineThickness": 2,
+      "shadowAngle": 90,
+      "shadowBlurRadius": 2,
+      "shadowColor": "0;0;0",
+      "shadowDistance": 4,
+      "shadowOpacity": 127,
+      "smoothed": false,
+      "underlined": false,
+      "text": "Kumpulkan 3 foto anggota tim untuk membuka pintu!",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": "170;180;220",
+      "verticalTextAlignment": "top",
+      "lineHeight": 0
+     }
+    }
+   ],
+   "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+     {
+      "objectName": "Title"
+     },
+     {
+      "objectName": "Sub"
+     },
+     {
+      "objectName": "Key1"
+     },
+     {
+      "objectName": "Key2"
+     },
+     {
+      "objectName": "Key3"
+     },
+     {
+      "objectName": "Goal"
+     }
+    ]
+   },
+   "events": [
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Num1"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarGlobal"
+       },
+       "parameters": [
+        "Pilihan",
+        "=",
+        "1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Scene"
+       },
+       "parameters": [
+        "",
+        "\"Level1\"",
+        ""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Numpad1"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarGlobal"
+       },
+       "parameters": [
+        "Pilihan",
+        "=",
+        "1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Scene"
+       },
+       "parameters": [
+        "",
+        "\"Level1\"",
+        ""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Num2"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarGlobal"
+       },
+       "parameters": [
+        "Pilihan",
+        "=",
+        "2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Scene"
+       },
+       "parameters": [
+        "",
+        "\"Level1\"",
+        ""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Numpad2"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarGlobal"
+       },
+       "parameters": [
+        "Pilihan",
+        "=",
+        "2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Scene"
+       },
+       "parameters": [
+        "",
+        "\"Level1\"",
+        ""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Num3"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarGlobal"
+       },
+       "parameters": [
+        "Pilihan",
+        "=",
+        "3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Scene"
+       },
+       "parameters": [
+        "",
+        "\"Level1\"",
+        ""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Numpad3"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarGlobal"
+       },
+       "parameters": [
+        "Pilihan",
+        "=",
+        "3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Scene"
+       },
+       "parameters": [
+        "",
+        "\"Level1\"",
+        ""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    }
+   ],
+   "layers": [
+    {
+     "ambientLightColorB": 200,
+     "ambientLightColorG": 200,
+     "ambientLightColorR": 200,
+     "camera3DFarPlaneDistance": 10000,
+     "camera3DFieldOfView": 45,
+     "camera3DNearPlaneDistance": 3,
+     "camera2DPlaneMaxDrawingDistance": 5000,
+     "cameraType": "",
+     "followBaseLayerCamera": false,
+     "isLightingLayer": false,
+     "isLocked": false,
+     "name": "",
+     "renderingType": "",
+     "visibility": true,
+     "cameras": [
+      {
+       "defaultSize": true,
+       "defaultViewport": true,
+       "height": 0,
+       "viewportBottom": 1,
+       "viewportLeft": 0,
+       "viewportRight": 1,
+       "viewportTop": 0,
+       "width": 0
+      }
+     ],
+     "effects": []
+    },
+    {
+     "ambientLightColorB": 200,
+     "ambientLightColorG": 200,
+     "ambientLightColorR": 200,
+     "camera3DFarPlaneDistance": 10000,
+     "camera3DFieldOfView": 45,
+     "camera3DNearPlaneDistance": 3,
+     "camera2DPlaneMaxDrawingDistance": 5000,
+     "cameraType": "",
+     "followBaseLayerCamera": false,
+     "isLightingLayer": false,
+     "isLocked": false,
+     "name": "UI",
+     "renderingType": "",
+     "visibility": true,
+     "cameras": [
+      {
+       "defaultSize": true,
+       "defaultViewport": true,
+       "height": 0,
+       "viewportBottom": 1,
+       "viewportLeft": 0,
+       "viewportRight": 1,
+       "viewportTop": 0,
+       "width": 0
+      }
+     ],
+     "effects": []
+    }
+   ],
+   "behaviorsSharedData": []
+  },
+  {
+   "b": 235,
+   "disableInputWhenNotFocused": true,
+   "mangledName": "Level1",
+   "name": "Level1",
+   "oglFOV": 90,
+   "oglZFar": 500,
+   "oglZNear": 1,
+   "r": 135,
+   "standardSortMethod": true,
+   "renderer3DWorldScale": 100,
+   "stopSoundsOnStartup": true,
+   "title": "",
+   "v": 206,
+   "uiSettings": {
+    "grid": false,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridWidth": 32,
+    "snap": true,
+    "windowMask": false,
+    "zoomFactor": 1
+   },
+   "objectsGroups": [
+    {
+     "name": "Player",
+     "objects": [
+      {
+       "name": "Player1"
+      },
+      {
+       "name": "Player2"
+      },
+      {
+       "name": "Player3"
+      }
+     ]
+    }
+   ],
+   "variables": [
+    {
+     "name": "Collected",
+     "type": "number",
+     "value": 0
+    },
+    {
+     "name": "Quiz",
+     "type": "number",
+     "value": 0
+    }
+   ],
+   "instances": [
+    {
+     "angle": 0,
+     "customSize": true,
+     "height": 60,
+     "width": 960,
+     "layer": "",
+     "locked": false,
+     "name": "Ground",
+     "persistentUuid": "c10273eb-ecf3-4421-b3de-3d55a6e7c3b5",
+     "x": 0,
+     "y": 480,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": true,
+     "height": 540,
+     "width": 32,
+     "layer": "",
+     "locked": false,
+     "name": "Ground",
+     "persistentUuid": "626ccb2e-552c-4142-af0a-e2585d37ba14",
+     "x": -32,
+     "y": 0,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": true,
+     "height": 540,
+     "width": 32,
+     "layer": "",
+     "locked": false,
+     "name": "Ground",
+     "persistentUuid": "35cfa671-d921-4ec4-a7e6-5ed2bc5a8763",
+     "x": 960,
+     "y": 0,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": true,
+     "height": 32,
+     "width": 170,
+     "layer": "",
+     "locked": false,
+     "name": "PlatformJT",
+     "persistentUuid": "a3c7c5d4-47f2-4ffd-b8b8-ff541dddf481",
+     "x": 190,
+     "y": 390,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": true,
+     "height": 32,
+     "width": 170,
+     "layer": "",
+     "locked": false,
+     "name": "PlatformJT",
+     "persistentUuid": "459713e6-55d1-424f-98d8-2cc7f271da67",
+     "x": 420,
+     "y": 300,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": true,
+     "height": 32,
+     "width": 170,
+     "layer": "",
+     "locked": false,
+     "name": "PlatformJT",
+     "persistentUuid": "93399fff-ced4-46c9-bd2d-b22e416622c8",
+     "x": 650,
+     "y": 210,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Item1",
+     "persistentUuid": "8c99ceda-8c6d-41ae-b651-c10179369f4f",
+     "x": 250,
+     "y": 344,
+     "zOrder": 5,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Item2",
+     "persistentUuid": "6da31985-5714-48a5-a954-7a51bbb53dd4",
+     "x": 480,
+     "y": 254,
+     "zOrder": 5,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Item3",
+     "persistentUuid": "8f886c54-0369-4d2c-a624-35ebda78225a",
+     "x": 710,
+     "y": 164,
+     "zOrder": 5,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Finish",
+     "persistentUuid": "35639010-ee96-4994-9693-86ea73034fdb",
+     "x": 860,
+     "y": 400,
+     "zOrder": 1,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Info",
+     "persistentUuid": "10373cd0-4fae-4879-b338-a54d29f87530",
+     "x": 20,
+     "y": 14,
+     "zOrder": 9,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    }
+   ],
+   "objects": [
+    {
+     "adaptCollisionMaskAutomatically": true,
+     "assetStoreId": "",
+     "name": "Player1",
+     "type": "Sprite",
+     "updateIfNotVisible": false,
+     "variables": [],
+     "effects": [],
+     "behaviors": [
+      {
+       "name": "PlatformerObject",
+       "type": "PlatformBehavior::PlatformerObjectBehavior",
+       "acceleration": 1200,
+       "canGrabPlatforms": false,
+       "canGoDownFromJumpthru": false,
+       "deceleration": 1500,
+       "gravity": 1500,
+       "ignoreDefaultControls": false,
+       "jumpSpeed": 800,
+       "jumpSustainTime": 0.2,
+       "maxFallingSpeed": 1000,
+       "maxSpeed": 280,
+       "slopeMaxAngle": 60,
+       "useLegacyTrajectory": true,
+       "xGrabTolerance": 10,
+       "yGrabOffset": 0,
+       "ladderSpeed": 150,
+       "roundCoordinates": true
+      }
+     ],
+     "animations": [
+      {
+       "name": "Idle",
+       "useMultipleDirections": false,
+       "directions": [
+        {
+         "looping": true,
+         "timeBetweenFrames": 0.15,
+         "sprites": [
+          {
+           "hasCustomCollisionMask": true,
+           "image": "dewo_Idle_0.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Walk",
+       "useMultipleDirections": false,
+       "directions": [
+        {
+         "looping": true,
+         "timeBetweenFrames": 0.09,
+         "sprites": [
+          {
+           "hasCustomCollisionMask": true,
+           "image": "dewo_Walk_0.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "dewo_Walk_1.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "dewo_Walk_2.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "dewo_Walk_3.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "dewo_Walk_4.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "dewo_Walk_5.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "dewo_Walk_6.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "dewo_Walk_7.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Jump",
+       "useMultipleDirections": false,
+       "directions": [
+        {
+         "looping": false,
+         "timeBetweenFrames": 0.12,
+         "sprites": [
+          {
+           "hasCustomCollisionMask": true,
+           "image": "dewo_Jump_0.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "dewo_Jump_1.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "adaptCollisionMaskAutomatically": true,
+     "assetStoreId": "",
+     "name": "Player2",
+     "type": "Sprite",
+     "updateIfNotVisible": false,
+     "variables": [],
+     "effects": [],
+     "behaviors": [
+      {
+       "name": "PlatformerObject",
+       "type": "PlatformBehavior::PlatformerObjectBehavior",
+       "acceleration": 1200,
+       "canGrabPlatforms": false,
+       "canGoDownFromJumpthru": false,
+       "deceleration": 1500,
+       "gravity": 1500,
+       "ignoreDefaultControls": false,
+       "jumpSpeed": 800,
+       "jumpSustainTime": 0.2,
+       "maxFallingSpeed": 1000,
+       "maxSpeed": 280,
+       "slopeMaxAngle": 60,
+       "useLegacyTrajectory": true,
+       "xGrabTolerance": 10,
+       "yGrabOffset": 0,
+       "ladderSpeed": 150,
+       "roundCoordinates": true
+      }
+     ],
+     "animations": [
+      {
+       "name": "Idle",
+       "useMultipleDirections": false,
+       "directions": [
+        {
+         "looping": true,
+         "timeBetweenFrames": 0.15,
+         "sprites": [
+          {
+           "hasCustomCollisionMask": true,
+           "image": "tabina_Idle_0.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Walk",
+       "useMultipleDirections": false,
+       "directions": [
+        {
+         "looping": true,
+         "timeBetweenFrames": 0.09,
+         "sprites": [
+          {
+           "hasCustomCollisionMask": true,
+           "image": "tabina_Walk_0.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "tabina_Walk_1.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "tabina_Walk_2.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "tabina_Walk_3.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "tabina_Walk_4.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "tabina_Walk_5.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "tabina_Walk_6.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "tabina_Walk_7.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Jump",
+       "useMultipleDirections": false,
+       "directions": [
+        {
+         "looping": false,
+         "timeBetweenFrames": 0.12,
+         "sprites": [
+          {
+           "hasCustomCollisionMask": true,
+           "image": "tabina_Jump_0.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "tabina_Jump_1.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "tabina_Jump_2.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "tabina_Jump_3.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "adaptCollisionMaskAutomatically": true,
+     "assetStoreId": "",
+     "name": "Player3",
+     "type": "Sprite",
+     "updateIfNotVisible": false,
+     "variables": [],
+     "effects": [],
+     "behaviors": [
+      {
+       "name": "PlatformerObject",
+       "type": "PlatformBehavior::PlatformerObjectBehavior",
+       "acceleration": 1200,
+       "canGrabPlatforms": false,
+       "canGoDownFromJumpthru": false,
+       "deceleration": 1500,
+       "gravity": 1500,
+       "ignoreDefaultControls": false,
+       "jumpSpeed": 800,
+       "jumpSustainTime": 0.2,
+       "maxFallingSpeed": 1000,
+       "maxSpeed": 280,
+       "slopeMaxAngle": 60,
+       "useLegacyTrajectory": true,
+       "xGrabTolerance": 10,
+       "yGrabOffset": 0,
+       "ladderSpeed": 150,
+       "roundCoordinates": true
+      }
+     ],
+     "animations": [
+      {
+       "name": "Idle",
+       "useMultipleDirections": false,
+       "directions": [
+        {
+         "looping": true,
+         "timeBetweenFrames": 0.15,
+         "sprites": [
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Idle_0.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Idle_1.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Idle_2.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Idle_3.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Idle_4.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Idle_5.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Idle_6.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Idle_7.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Walk",
+       "useMultipleDirections": false,
+       "directions": [
+        {
+         "looping": true,
+         "timeBetweenFrames": 0.09,
+         "sprites": [
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Walk_0.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Walk_1.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Walk_2.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Walk_3.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Walk_4.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Walk_5.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Walk_6.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Walk_7.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Jump",
+       "useMultipleDirections": false,
+       "directions": [
+        {
+         "looping": false,
+         "timeBetweenFrames": 0.12,
+         "sprites": [
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Jump_0.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Jump_1.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Jump_2.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Jump_3.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          },
+          {
+           "hasCustomCollisionMask": true,
+           "image": "ria_Jump_4.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": [
+            [
+             {
+              "x": 18,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 8
+             },
+             {
+              "x": 46,
+              "y": 80
+             },
+             {
+              "x": 18,
+              "y": 80
+             }
+            ]
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "assetStoreId": "",
+     "name": "Ground",
+     "type": "TiledSpriteObject::TiledSprite",
+     "variables": [],
+     "effects": [],
+     "behaviors": [
+      {
+       "name": "Platform",
+       "type": "PlatformBehavior::PlatformBehavior",
+       "canBeGrabbed": true,
+       "platformType": "NormalPlatform",
+       "yGrabOffset": 0
+      }
+     ],
+     "texture": "tile_ground.png",
+     "width": 32,
+     "height": 60
+    },
+    {
+     "assetStoreId": "",
+     "name": "PlatformJT",
+     "type": "TiledSpriteObject::TiledSprite",
+     "variables": [],
+     "effects": [],
+     "behaviors": [
+      {
+       "name": "Platform",
+       "type": "PlatformBehavior::PlatformBehavior",
+       "canBeGrabbed": true,
+       "platformType": "Jumpthrough",
+       "yGrabOffset": 0
+      }
+     ],
+     "texture": "tile_platform.png",
+     "width": 32,
+     "height": 32
+    },
+    {
+     "adaptCollisionMaskAutomatically": true,
+     "assetStoreId": "",
+     "name": "Item1",
+     "type": "Sprite",
+     "updateIfNotVisible": false,
+     "variables": [],
+     "effects": [],
+     "behaviors": [],
+     "animations": [
+      {
+       "name": "Default",
+       "useMultipleDirections": false,
+       "directions": [
+        {
+         "looping": true,
+         "timeBetweenFrames": 0.1,
+         "sprites": [
+          {
+           "hasCustomCollisionMask": false,
+           "image": "item_q.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "adaptCollisionMaskAutomatically": true,
+     "assetStoreId": "",
+     "name": "Item2",
+     "type": "Sprite",
+     "updateIfNotVisible": false,
+     "variables": [],
+     "effects": [],
+     "behaviors": [],
+     "animations": [
+      {
+       "name": "Default",
+       "useMultipleDirections": false,
+       "directions": [
+        {
+         "looping": true,
+         "timeBetweenFrames": 0.1,
+         "sprites": [
+          {
+           "hasCustomCollisionMask": false,
+           "image": "item_q.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "adaptCollisionMaskAutomatically": true,
+     "assetStoreId": "",
+     "name": "Item3",
+     "type": "Sprite",
+     "updateIfNotVisible": false,
+     "variables": [],
+     "effects": [],
+     "behaviors": [],
+     "animations": [
+      {
+       "name": "Default",
+       "useMultipleDirections": false,
+       "directions": [
+        {
+         "looping": true,
+         "timeBetweenFrames": 0.1,
+         "sprites": [
+          {
+           "hasCustomCollisionMask": false,
+           "image": "item_q.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "assetStoreId": "",
+     "name": "QuizTitle",
+     "type": "TextObject::Text",
+     "variables": [],
+     "effects": [],
+     "behaviors": [],
+     "string": "NIM ini milik siapa?",
+     "font": "",
+     "characterSize": 20,
+     "color": {
+      "b": 60,
+      "g": 210,
+      "r": 250
+     },
+     "bold": true,
+     "italic": false,
+     "underlined": false,
+     "smoothed": false,
+     "textAlignment": "left",
+     "content": {
+      "bold": true,
+      "isOutlineEnabled": false,
+      "isShadowEnabled": false,
+      "italic": false,
+      "outlineColor": "255;255;255",
+      "outlineThickness": 2,
+      "shadowAngle": 90,
+      "shadowBlurRadius": 2,
+      "shadowColor": "0;0;0",
+      "shadowDistance": 4,
+      "shadowOpacity": 127,
+      "smoothed": false,
+      "underlined": false,
+      "text": "NIM ini milik siapa?",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": "250;210;60",
+      "verticalTextAlignment": "top",
+      "lineHeight": 0
+     }
+    },
+    {
+     "assetStoreId": "",
+     "name": "QuizOpsi",
+     "type": "TextObject::Text",
+     "variables": [],
+     "effects": [],
+     "behaviors": [],
+     "string": "[1] Dewo\n[2] Tabina\n[3] Ria",
+     "font": "",
+     "characterSize": 24,
+     "color": {
+      "b": 255,
+      "g": 255,
+      "r": 255
+     },
+     "bold": true,
+     "italic": false,
+     "underlined": false,
+     "smoothed": false,
+     "textAlignment": "left",
+     "content": {
+      "bold": true,
+      "isOutlineEnabled": false,
+      "isShadowEnabled": false,
+      "italic": false,
+      "outlineColor": "255;255;255",
+      "outlineThickness": 2,
+      "shadowAngle": 90,
+      "shadowBlurRadius": 2,
+      "shadowColor": "0;0;0",
+      "shadowDistance": 4,
+      "shadowOpacity": 127,
+      "smoothed": false,
+      "underlined": false,
+      "text": "[1] Dewo\n[2] Tabina\n[3] Ria",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 24,
+      "color": "255;255;255",
+      "verticalTextAlignment": "top",
+      "lineHeight": 0
+     }
+    },
+    {
+     "assetStoreId": "",
+     "name": "QuizSalah",
+     "type": "TextObject::Text",
+     "variables": [],
+     "effects": [],
+     "behaviors": [],
+     "string": "Salah! Coba lagi.",
+     "font": "",
+     "characterSize": 20,
+     "color": {
+      "b": 110,
+      "g": 110,
+      "r": 255
+     },
+     "bold": true,
+     "italic": false,
+     "underlined": false,
+     "smoothed": false,
+     "textAlignment": "left",
+     "content": {
+      "bold": true,
+      "isOutlineEnabled": false,
+      "isShadowEnabled": false,
+      "italic": false,
+      "outlineColor": "255;255;255",
+      "outlineThickness": 2,
+      "shadowAngle": 90,
+      "shadowBlurRadius": 2,
+      "shadowColor": "0;0;0",
+      "shadowDistance": 4,
+      "shadowOpacity": 127,
+      "smoothed": false,
+      "underlined": false,
+      "text": "Salah! Coba lagi.",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": "255;110;110",
+      "verticalTextAlignment": "top",
+      "lineHeight": 0
+     }
+    },
+    {
+     "adaptCollisionMaskAutomatically": true,
+     "assetStoreId": "",
+     "name": "Finish",
+     "type": "Sprite",
+     "updateIfNotVisible": false,
+     "variables": [],
+     "effects": [],
+     "behaviors": [],
+     "animations": [
+      {
+       "name": "Default",
+       "useMultipleDirections": false,
+       "directions": [
+        {
+         "looping": true,
+         "timeBetweenFrames": 0.1,
+         "sprites": [
+          {
+           "hasCustomCollisionMask": false,
+           "image": "door.png",
+           "points": [],
+           "originPoint": {
+            "name": "origine",
+            "x": 0,
+            "y": 0
+           },
+           "centerPoint": {
+            "automatic": true,
+            "name": "centre",
+            "x": 0,
+            "y": 0
+           },
+           "customCollisionMask": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "assetStoreId": "",
+     "name": "Info",
+     "type": "TextObject::Text",
+     "variables": [],
+     "effects": [],
+     "behaviors": [],
+     "string": "Ambil 3 kotak ?, tebak pemilik NIM-nya (tekan 1/2/3), lalu masuk pintu!   Kontrol: panah = jalan, spasi = lompat",
+     "font": "",
+     "characterSize": 16,
+     "color": {
+      "b": 60,
+      "g": 30,
+      "r": 30
+     },
+     "bold": true,
+     "italic": false,
+     "underlined": false,
+     "smoothed": false,
+     "textAlignment": "left",
+     "content": {
+      "bold": true,
+      "isOutlineEnabled": false,
+      "isShadowEnabled": false,
+      "italic": false,
+      "outlineColor": "255;255;255",
+      "outlineThickness": 2,
+      "shadowAngle": 90,
+      "shadowBlurRadius": 2,
+      "shadowColor": "0;0;0",
+      "shadowDistance": 4,
+      "shadowOpacity": 127,
+      "smoothed": false,
+      "underlined": false,
+      "text": "Ambil 3 kotak ?, tebak pemilik NIM-nya (tekan 1/2/3), lalu masuk pintu!   Kontrol: panah = jalan, spasi = lompat",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 16,
+      "color": "30;30;60",
+      "verticalTextAlignment": "top",
+      "lineHeight": 0
+     }
+    }
+   ],
+   "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+     {
+      "objectName": "Player1"
+     },
+     {
+      "objectName": "Player2"
+     },
+     {
+      "objectName": "Player3"
+     },
+     {
+      "objectName": "Ground"
+     },
+     {
+      "objectName": "PlatformJT"
+     },
+     {
+      "objectName": "Item1"
+     },
+     {
+      "objectName": "Item2"
+     },
+     {
+      "objectName": "Item3"
+     },
+     {
+      "objectName": "QuizTitle"
+     },
+     {
+      "objectName": "QuizOpsi"
+     },
+     {
+      "objectName": "QuizSalah"
+     },
+     {
+      "objectName": "Finish"
+     },
+     {
+      "objectName": "Info"
+     }
+    ]
+   },
+   "events": [
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Comment",
+     "color": {
+      "b": 109,
+      "g": 230,
+      "r": 255,
+      "textB": 0,
+      "textG": 0,
+      "textR": 0
+     },
+     "comment": "1) Munculkan karakter sesuai pilihan di Menu (variabel global Pilihan: 1=Dewo, 2=Tabina, 3=Ria)",
+     "comment2": ""
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "DepartScene"
+       },
+       "parameters": [
+        ""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarGlobal"
+       },
+       "parameters": [
+        "Pilihan",
+        "=",
+        "1"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Player1",
+        "60",
+        "398",
+        ""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "DepartScene"
+       },
+       "parameters": [
+        ""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarGlobal"
+       },
+       "parameters": [
+        "Pilihan",
+        "=",
+        "2"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Player2",
+        "60",
+        "398",
+        ""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "DepartScene"
+       },
+       "parameters": [
+        ""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarGlobal"
+       },
+       "parameters": [
+        "Pilihan",
+        "=",
+        "3"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Player3",
+        "60",
+        "398",
+        ""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Comment",
+     "color": {
+      "b": 109,
+      "g": 230,
+      "r": 255,
+      "textB": 0,
+      "textG": 0,
+      "textR": 0
+     },
+     "comment": "2) Animasi karakter: diam / jalan / lompat",
+     "comment2": ""
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "PlatformBehavior::IsOnFloor"
+       },
+       "parameters": [
+        "Player",
+        "PlatformerObject"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": true,
+        "value": "PlatformBehavior::IsMoving"
+       },
+       "parameters": [
+        "Player",
+        "PlatformerObject"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "SetAnimationName"
+       },
+       "parameters": [
+        "Player",
+        "\"Idle\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "PlatformBehavior::IsOnFloor"
+       },
+       "parameters": [
+        "Player",
+        "PlatformerObject"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "PlatformBehavior::IsMoving"
+       },
+       "parameters": [
+        "Player",
+        "PlatformerObject"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "SetAnimationName"
+       },
+       "parameters": [
+        "Player",
+        "\"Walk\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": true,
+        "value": "PlatformBehavior::IsOnFloor"
+       },
+       "parameters": [
+        "Player",
+        "PlatformerObject"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "SetAnimationName"
+       },
+       "parameters": [
+        "Player",
+        "\"Jump\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Left"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "FlipX"
+       },
+       "parameters": [
+        "Player",
+        "yes"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Right"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "FlipX"
+       },
+       "parameters": [
+        "Player",
+        "no"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Comment",
+     "color": {
+      "b": 109,
+      "g": 230,
+      "r": 255,
+      "textB": 0,
+      "textG": 0,
+      "textR": 0
+     },
+     "comment": "3) Ambil kotak ? -> muncul tebakan: NIM ini milik siapa? (Quiz = nomor anggota yang ditanyakan)",
+     "comment2": ""
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "CollisionNP"
+       },
+       "parameters": [
+        "Player",
+        "Item1",
+        "",
+        ""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "0"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Item1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "KartuBg"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Hint"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizTitle"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizOpsi"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "KartuBg",
+        "330",
+        "130",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizTitle",
+        "350",
+        "150",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Nim2",
+        "350",
+        "195",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizOpsi",
+        "350",
+        "245",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "CollisionNP"
+       },
+       "parameters": [
+        "Player",
+        "Item2",
+        "",
+        ""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "0"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Item2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "KartuBg"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Hint"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizTitle"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizOpsi"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "KartuBg",
+        "330",
+        "130",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizTitle",
+        "350",
+        "150",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Nim3",
+        "350",
+        "195",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizOpsi",
+        "350",
+        "245",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "CollisionNP"
+       },
+       "parameters": [
+        "Player",
+        "Item3",
+        "",
+        ""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "0"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Item3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "KartuBg"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Hint"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizTitle"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizOpsi"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "KartuBg",
+        "330",
+        "130",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizTitle",
+        "350",
+        "150",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Nim1",
+        "350",
+        "195",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizOpsi",
+        "350",
+        "245",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Comment",
+     "color": {
+      "b": 109,
+      "g": 230,
+      "r": 255,
+      "textB": 0,
+      "textG": 0,
+      "textR": 0
+     },
+     "comment": "4) Jawab dengan tombol 1/2/3. Benar -> kartu anggota muncul. Salah -> coba lagi",
+     "comment2": ""
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Num1"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "0"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarScene"
+       },
+       "parameters": [
+        "Collected",
+        "+",
+        "1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "KartuBg"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Hint"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizTitle"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizOpsi"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "KartuBg",
+        "330",
+        "130",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Foto1",
+        "400",
+        "142",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Nama1",
+        "350",
+        "315",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Nim1",
+        "350",
+        "352",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Hint",
+        "350",
+        "378",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Numpad1"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "0"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarScene"
+       },
+       "parameters": [
+        "Collected",
+        "+",
+        "1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "KartuBg"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Hint"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizTitle"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizOpsi"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "KartuBg",
+        "330",
+        "130",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Foto1",
+        "400",
+        "142",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Nama1",
+        "350",
+        "315",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Nim1",
+        "350",
+        "352",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Hint",
+        "350",
+        "378",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Num2"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizSalah",
+        "350",
+        "350",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Numpad2"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizSalah",
+        "350",
+        "350",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Num3"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizSalah",
+        "350",
+        "350",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Numpad3"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizSalah",
+        "350",
+        "350",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Num1"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizSalah",
+        "350",
+        "350",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Numpad1"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizSalah",
+        "350",
+        "350",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Num2"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "0"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarScene"
+       },
+       "parameters": [
+        "Collected",
+        "+",
+        "1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "KartuBg"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Hint"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizTitle"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizOpsi"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "KartuBg",
+        "330",
+        "130",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Foto2",
+        "400",
+        "142",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Nama2",
+        "350",
+        "315",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Nim2",
+        "350",
+        "352",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Hint",
+        "350",
+        "378",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Numpad2"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "0"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarScene"
+       },
+       "parameters": [
+        "Collected",
+        "+",
+        "1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "KartuBg"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Hint"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizTitle"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizOpsi"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "KartuBg",
+        "330",
+        "130",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Foto2",
+        "400",
+        "142",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Nama2",
+        "350",
+        "315",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Nim2",
+        "350",
+        "352",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Hint",
+        "350",
+        "378",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Num3"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizSalah",
+        "350",
+        "350",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Numpad3"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizSalah",
+        "350",
+        "350",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Num1"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizSalah",
+        "350",
+        "350",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Numpad1"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizSalah",
+        "350",
+        "350",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Num2"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizSalah",
+        "350",
+        "350",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Numpad2"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "QuizSalah",
+        "350",
+        "350",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Num3"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "0"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarScene"
+       },
+       "parameters": [
+        "Collected",
+        "+",
+        "1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "KartuBg"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Hint"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizTitle"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizOpsi"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "KartuBg",
+        "330",
+        "130",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Foto3",
+        "400",
+        "142",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Nama3",
+        "350",
+        "315",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Nim3",
+        "350",
+        "352",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Hint",
+        "350",
+        "378",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Numpad3"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "0"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "ModVarScene"
+       },
+       "parameters": [
+        "Collected",
+        "+",
+        "1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "KartuBg"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Hint"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizTitle"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizOpsi"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "QuizSalah"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "KartuBg",
+        "330",
+        "130",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Foto3",
+        "400",
+        "142",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Nama3",
+        "350",
+        "315",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Nim3",
+        "350",
+        "352",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Create"
+       },
+       "parameters": [
+        "",
+        "Hint",
+        "350",
+        "378",
+        "\"UI\""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Comment",
+     "color": {
+      "b": 109,
+      "g": 230,
+      "r": 255,
+      "textB": 0,
+      "textG": 0,
+      "textR": 0
+     },
+     "comment": "5) Tutup kartu anggota dengan ENTER",
+     "comment2": ""
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Return"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Quiz",
+        "=",
+        "0"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "KartuBg"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Foto3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nama3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim1"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim2"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Nim3"
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "Delete"
+       },
+       "parameters": [
+        "Hint"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Comment",
+     "color": {
+      "b": 109,
+      "g": 230,
+      "r": 255,
+      "textB": 0,
+      "textG": 0,
+      "textR": 0
+     },
+     "comment": "6) Semua 3 tebakan benar + sentuh pintu -> layar akhir",
+     "comment2": ""
+    },
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "CollisionNP"
+       },
+       "parameters": [
+        "Player",
+        "Finish",
+        "",
+        ""
+       ],
+       "subInstructions": []
+      },
+      {
+       "type": {
+        "inverted": false,
+        "value": "VarScene"
+       },
+       "parameters": [
+        "Collected",
+        "=",
+        "3"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Scene"
+       },
+       "parameters": [
+        "",
+        "\"Ending\"",
+        ""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    }
+   ],
+   "layers": [
+    {
+     "ambientLightColorB": 200,
+     "ambientLightColorG": 200,
+     "ambientLightColorR": 200,
+     "camera3DFarPlaneDistance": 10000,
+     "camera3DFieldOfView": 45,
+     "camera3DNearPlaneDistance": 3,
+     "camera2DPlaneMaxDrawingDistance": 5000,
+     "cameraType": "",
+     "followBaseLayerCamera": false,
+     "isLightingLayer": false,
+     "isLocked": false,
+     "name": "",
+     "renderingType": "",
+     "visibility": true,
+     "cameras": [
+      {
+       "defaultSize": true,
+       "defaultViewport": true,
+       "height": 0,
+       "viewportBottom": 1,
+       "viewportLeft": 0,
+       "viewportRight": 1,
+       "viewportTop": 0,
+       "width": 0
+      }
+     ],
+     "effects": []
+    },
+    {
+     "ambientLightColorB": 200,
+     "ambientLightColorG": 200,
+     "ambientLightColorR": 200,
+     "camera3DFarPlaneDistance": 10000,
+     "camera3DFieldOfView": 45,
+     "camera3DNearPlaneDistance": 3,
+     "camera2DPlaneMaxDrawingDistance": 5000,
+     "cameraType": "",
+     "followBaseLayerCamera": false,
+     "isLightingLayer": false,
+     "isLocked": false,
+     "name": "UI",
+     "renderingType": "",
+     "visibility": true,
+     "cameras": [
+      {
+       "defaultSize": true,
+       "defaultViewport": true,
+       "height": 0,
+       "viewportBottom": 1,
+       "viewportLeft": 0,
+       "viewportRight": 1,
+       "viewportTop": 0,
+       "width": 0
+      }
+     ],
+     "effects": []
+    }
+   ],
+   "behaviorsSharedData": []
+  },
+  {
+   "b": 50,
+   "disableInputWhenNotFocused": true,
+   "mangledName": "Ending",
+   "name": "Ending",
+   "oglFOV": 90,
+   "oglZFar": 500,
+   "oglZNear": 1,
+   "r": 20,
+   "standardSortMethod": true,
+   "renderer3DWorldScale": 100,
+   "stopSoundsOnStartup": true,
+   "title": "",
+   "v": 24,
+   "uiSettings": {
+    "grid": false,
+    "gridB": 255,
+    "gridG": 180,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridR": 158,
+    "gridWidth": 32,
+    "snap": true,
+    "windowMask": false,
+    "zoomFactor": 1
+   },
+   "objectsGroups": [],
+   "variables": [],
+   "instances": [
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "EndTitle",
+     "persistentUuid": "b9579b28-63a7-475f-b16a-d0df7630c4b3",
+     "x": 370,
+     "y": 25,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "KartuBg",
+     "persistentUuid": "68f0e60a-e24a-4362-b79d-75c2d599e1fa",
+     "x": 20,
+     "y": 100,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Foto1",
+     "persistentUuid": "43027d24-e028-4512-8e10-a504ff8df6cc",
+     "x": 90,
+     "y": 112,
+     "zOrder": 1,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Nama1",
+     "persistentUuid": "51952bc1-2658-4e4c-8059-709da4e27a52",
+     "x": 40,
+     "y": 285,
+     "zOrder": 1,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Nim1",
+     "persistentUuid": "0e7a1c81-9131-4c89-abaf-96a65b88fd6c",
+     "x": 40,
+     "y": 322,
+     "zOrder": 1,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "KartuBg",
+     "persistentUuid": "b9da02ea-bc57-48c6-a7e4-7fda8bd47ffa",
+     "x": 330,
+     "y": 100,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Foto2",
+     "persistentUuid": "2bc5f468-5064-48ce-a166-20ca2eb75bd9",
+     "x": 400,
+     "y": 112,
+     "zOrder": 1,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Nama2",
+     "persistentUuid": "7ae51cc0-d80c-4914-b47e-7c51b10c7c17",
+     "x": 350,
+     "y": 285,
+     "zOrder": 1,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Nim2",
+     "persistentUuid": "65cdaca5-1c45-4384-a319-7aa848faaee5",
+     "x": 350,
+     "y": 322,
+     "zOrder": 1,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "KartuBg",
+     "persistentUuid": "0cf9f0e3-8d7e-43f9-a08c-a94b32102481",
+     "x": 640,
+     "y": 100,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Foto3",
+     "persistentUuid": "0ff272f4-8cb5-4a0c-9a2c-d7b54fb9580a",
+     "x": 710,
+     "y": 112,
+     "zOrder": 1,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Nama3",
+     "persistentUuid": "d7f95f14-584d-4fd9-85cd-c301fe339adf",
+     "x": 660,
+     "y": 285,
+     "zOrder": 1,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "Nim3",
+     "persistentUuid": "0d43df9c-7849-4837-95a0-c0a266f5e19a",
+     "x": 660,
+     "y": 322,
+     "zOrder": 1,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    },
+    {
+     "angle": 0,
+     "customSize": false,
+     "height": 0,
+     "width": 0,
+     "layer": "",
+     "locked": false,
+     "name": "EndHint",
+     "persistentUuid": "f6b5c86d-7ed7-462a-9e29-a4a1c6325d84",
+     "x": 290,
+     "y": 430,
+     "zOrder": 0,
+     "numberProperties": [],
+     "stringProperties": [],
+     "initialVariables": []
+    }
+   ],
+   "objects": [
+    {
+     "assetStoreId": "",
+     "name": "EndTitle",
+     "type": "TextObject::Text",
+     "variables": [],
+     "effects": [],
+     "behaviors": [],
+     "string": "TIM KAMI",
+     "font": "",
+     "characterSize": 46,
+     "color": {
+      "b": 60,
+      "g": 210,
+      "r": 250
+     },
+     "bold": true,
+     "italic": false,
+     "underlined": false,
+     "smoothed": false,
+     "textAlignment": "left",
+     "content": {
+      "bold": true,
+      "isOutlineEnabled": false,
+      "isShadowEnabled": false,
+      "italic": false,
+      "outlineColor": "255;255;255",
+      "outlineThickness": 2,
+      "shadowAngle": 90,
+      "shadowBlurRadius": 2,
+      "shadowColor": "0;0;0",
+      "shadowDistance": 4,
+      "shadowOpacity": 127,
+      "smoothed": false,
+      "underlined": false,
+      "text": "TIM KAMI",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 46,
+      "color": "250;210;60",
+      "verticalTextAlignment": "top",
+      "lineHeight": 0
+     }
+    },
+    {
+     "assetStoreId": "",
+     "name": "EndHint",
+     "type": "TextObject::Text",
+     "variables": [],
+     "effects": [],
+     "behaviors": [],
+     "string": "Tekan ENTER untuk kembali ke menu",
+     "font": "",
+     "characterSize": 22,
+     "color": {
+      "b": 220,
+      "g": 180,
+      "r": 170
+     },
+     "bold": false,
+     "italic": false,
+     "underlined": false,
+     "smoothed": false,
+     "textAlignment": "left",
+     "content": {
+      "bold": false,
+      "isOutlineEnabled": false,
+      "isShadowEnabled": false,
+      "italic": false,
+      "outlineColor": "255;255;255",
+      "outlineThickness": 2,
+      "shadowAngle": 90,
+      "shadowBlurRadius": 2,
+      "shadowColor": "0;0;0",
+      "shadowDistance": 4,
+      "shadowOpacity": 127,
+      "smoothed": false,
+      "underlined": false,
+      "text": "Tekan ENTER untuk kembali ke menu",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 22,
+      "color": "170;180;220",
+      "verticalTextAlignment": "top",
+      "lineHeight": 0
+     }
+    }
+   ],
+   "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+     {
+      "objectName": "EndTitle"
+     },
+     {
+      "objectName": "EndHint"
+     }
+    ]
+   },
+   "events": [
+    {
+     "disabled": false,
+     "folded": false,
+     "type": "BuiltinCommonInstructions::Standard",
+     "conditions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "KeyPressed"
+       },
+       "parameters": [
+        "",
+        "Return"
+       ],
+       "subInstructions": []
+      }
+     ],
+     "actions": [
+      {
+       "type": {
+        "inverted": false,
+        "value": "Scene"
+       },
+       "parameters": [
+        "",
+        "\"Menu\"",
+        ""
+       ],
+       "subInstructions": []
+      }
+     ],
+     "events": []
+    }
+   ],
+   "layers": [
+    {
+     "ambientLightColorB": 200,
+     "ambientLightColorG": 200,
+     "ambientLightColorR": 200,
+     "camera3DFarPlaneDistance": 10000,
+     "camera3DFieldOfView": 45,
+     "camera3DNearPlaneDistance": 3,
+     "camera2DPlaneMaxDrawingDistance": 5000,
+     "cameraType": "",
+     "followBaseLayerCamera": false,
+     "isLightingLayer": false,
+     "isLocked": false,
+     "name": "",
+     "renderingType": "",
+     "visibility": true,
+     "cameras": [
+      {
+       "defaultSize": true,
+       "defaultViewport": true,
+       "height": 0,
+       "viewportBottom": 1,
+       "viewportLeft": 0,
+       "viewportRight": 1,
+       "viewportTop": 0,
+       "width": 0
+      }
+     ],
+     "effects": []
+    },
+    {
+     "ambientLightColorB": 200,
+     "ambientLightColorG": 200,
+     "ambientLightColorR": 200,
+     "camera3DFarPlaneDistance": 10000,
+     "camera3DFieldOfView": 45,
+     "camera3DNearPlaneDistance": 3,
+     "camera2DPlaneMaxDrawingDistance": 5000,
+     "cameraType": "",
+     "followBaseLayerCamera": false,
+     "isLightingLayer": false,
+     "isLocked": false,
+     "name": "UI",
+     "renderingType": "",
+     "visibility": true,
+     "cameras": [
+      {
+       "defaultSize": true,
+       "defaultViewport": true,
+       "height": 0,
+       "viewportBottom": 1,
+       "viewportLeft": 0,
+       "viewportRight": 1,
+       "viewportTop": 0,
+       "width": 0
+      }
+     ],
+     "effects": []
+    }
+   ],
+   "behaviorsSharedData": []
+  }
+ ],
+ "externalEvents": [],
+ "eventsFunctionsExtensions": [],
+ "externalLayouts": []
+}
